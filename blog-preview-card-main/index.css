@@ -1,0 +1,163 @@
+
+body{   
+    background-color: hsl(47, 88%, 63%)
+}
+
+.block{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color: white;
+    width: 20%;
+    height: 58vh;
+    margin-left: 40%;
+    padding-right:3px;
+    margin-right: 50%;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+    border: 1px solid black;
+    border-radius: 20px;
+    box-shadow: 6px 6px  0 0 black;
+}
+
+.text{
+    text-align: left;
+    margin-left: 13px;
+}
+
+.date{
+    font-size: 0.7em;
+}
+input{
+    background-color: hsl(47, 88%, 63%);
+    display: inline-block;
+    margin-inline: 13px;
+    border-radius: 7px;
+    border: none;
+    margin-top: 15px;
+    padding: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.image-name{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.image-name h3{
+    font-weight: bold;
+    line-height: 1px;
+}
+
+.image-name img{
+    width: 20px;
+    height: 20px;
+    margin-left:13px;
+}
+
+.image{
+    height:150px ;
+    border-radius: 15px;
+    margin-left:10px;
+    margin-top:10px;
+    margin-right: 10px;
+}
+
+.paragraph{
+    
+    font-size: 0.9em;
+    color:rgba(0,0,0,0.7);
+}
+
+
+h1{
+    font-size: 1em;
+}
+
+h3{
+    text-align: left;
+    font-size: 0.7em;
+}
+
+@media screen and (max-width:1360px){
+    .block{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        width: 70%;
+        height: 45vh;
+        padding-right:0;
+        margin-left: 15%;
+        margin-top: 10vh;
+        margin-bottom: 10vh;
+        border-radius: 20px;
+    }
+
+    .image{
+        height:17.3vh ;
+        border-radius: 15px;
+        margin-left:10px;
+        margin-top:10px;
+        
+    }
+    
+    .image-bouton{
+        width: 85%;
+        padding:0;
+        margin:0;
+    }
+  
+}
+
+@media screen and (min-width:1360px)and(max-width:1121px){
+    .block{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        width: 60%;
+        height: 60vh;
+        padding-right:0;
+        margin-left: 15%;
+        margin-top: 10vh;
+        margin-bottom: 10vh;
+        border-radius: 20px;
+    }
+
+    .image{
+        height:49vh;
+        border-radius: 15px;
+        margin-left:30px;
+        margin-top:30px;
+        
+    }
+
+    .image-bouton{
+        width: 90%;
+        
+        margin-right:30px;
+    }
+
+    h3{
+        text-align: left;
+        font-size: 0.9em;
+    }
+
+    .image-name img{
+        width: 20px;
+        height: 20px;
+        margin-left:30px;
+    }
+
+    .text{
+        margin-left: 30px;
+    }
+
+    input{
+        display: inline-block;
+        margin-inline: 30px;
+    }
+
+
+}
